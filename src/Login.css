@@ -1,0 +1,101 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8A2BE2; /* Violet background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for both forms */
+.login-register-container {
+    background-color: #4B0082; /* Indigo */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+/* Tab header styling */
+.tab-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #6A0DAD; /* Dark Violet */
+    border-radius: 5px 5px 0 0;
+    color: white;
+    width: 50%;
+}
+
+.tab.active {
+    background-color: #FFD700; /* Bright Yellow for the active tab */
+    color: black;
+}
+
+/* Form container */
+.form-container {
+    background-color: #4B0082; /* Indigo */
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Input group */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFD700; /* Yellow labels */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Button styling */
+.login-btn, .register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #DA70D6; /* Orchid color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover, .register-btn:hover {
+    background-color: #9932CC; /* Darker violet */
+}
+
+/* Link styling */
+.links {
+    margin-top: 20px;
+}
+
+.forgot-link {
+    display: block;
+    color: #FFD700; /* Yellow links */
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
